@@ -1,0 +1,119 @@
+@media (min-width: 1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+#dark{
+    border: transparent;
+}
+
+#dark img{
+    width: 2em;
+}
+
+.dark-mode {
+    background-color: #32353b;
+    color: #fce9cb;
+}
+
+.dark-mode #buttons button {
+    background-color:blueviolet;
+    color: black;
+}
+
+.dark-mode #end button {
+    background-color:blueviolet;
+    color: black;
+}
+
+.dark-mode h4 {
+    border: 2px solid #fce9cb;
+}
+
+h4 {
+    width: fit-content;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#header img{
+    width: 50px;
+}
+
+#isi input{
+    width: 23%;
+}   
+
+#headerGame{
+    display: grid;
+    height: 15%;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: auto auto;
+}
+
+#headerGame img{
+    width: 50px;
+    grid-column-start: 1;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#headerGame h1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 0;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+#headerGame a img{
+    width: 40px;
+    grid-column-start: 0;
+    grid-column-start: 1;
+    grid-row-start: 0;
+    grid-row-end: 2;
+}
+
+#time{
+    width: 10%;
+}
+
+#sound{
+    width: 10%;
+}
+
+.tulang{
+    margin: auto auto auto auto;
+}
+
+.tulang img{
+    width : 2em;
+    height : 2em;
+}
+
+#gameField {
+    width: 50%;
+}
+
+#field{
+    display: flex;
+    justify-content: space-between;
+}
+
+#soundButton {
+    width: 50px;
+}
+
+#gameField{
+    display: grid;
+}
+
+#gameField img{
+    width: 30%;
+}
